@@ -3,6 +3,7 @@ import { useChat } from "./hooks/useChat";
 import { Message } from "./components/Message";
 import { InputBar } from "./components/InputBar";
 import { AgentBadge } from "./components/AgentBadge";
+import { FileUpload } from "./components/FileUpload";
 
 export default function App() {
   const { messages, status, activeAgent, isLoading, sendMessage } = useChat();
@@ -78,6 +79,9 @@ export default function App() {
 
         <div ref={bottomRef} />
       </div>
+
+      {/* File Upload */}
+      <FileUpload />
 
       {/* Input */}
       <InputBar onSend={sendMessage} disabled={isLoading} />

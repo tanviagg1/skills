@@ -4,6 +4,7 @@ const AGENT_LABELS: Record<string, { label: string; color: string }> = {
   main: { label: "Main Agent", color: "#6366f1" },
   github: { label: "GitHub Agent", color: "#0f172a" },
   linear: { label: "Linear Agent", color: "#5e6ad2" },
+  knowledge: { label: "Knowledge Agent", color: "#0891b2" },
 };
 
 export function AgentBadge({ agent }: { agent: AgentType }) {
