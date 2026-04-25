@@ -1,0 +1,32 @@
+[
+  {
+    "cardNumber": "4111111111111111",
+    "fullName": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "phone": "+1-555-0101",
+    "address": "12 Maple Street, Springfield, IL 62701",
+    "accountStatus": "ACTIVE",
+    "creditLimit": "10000.00",
+    "currentBalance": "1234.56"
+  },
+  {
+    "cardNumber": "5500005555555559",
+    "fullName": "Bob Martinez",
+    "email": "bob.martinez@example.com",
+    "phone": "+1-555-0202",
+    "address": "45 Oak Avenue, Austin, TX 73301",
+    "accountStatus": "ACTIVE",
+    "creditLimit": "7500.00",
+    "currentBalance": "300.00"
+  },
+  {
+    "cardNumber": "3714496353984311",
+    "fullName": "Carol Smith",
+    "email": "carol.smith@example.com",
+    "phone": "+1-555-0303",
+    "address": "8 Pine Road, Seattle, WA 98101",
+    "accountStatus": "SUSPENDED",
+    "creditLimit": "5000.00",
+    "currentBalance": "4999.00"
+  }
+]
